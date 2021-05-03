@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .baa{
+        color:red;
+     text-align: center;
+
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $("#add").click(function(){
+            $("span").addClass("baa");
+        })
+        $("#slide").click(function(){
+            $("img").slideToggle();
+        })
+        $("#appen").click(function(){
+            $("#hw").append("<p>hello</p>");
+        })
+        $("#slideDown").click(function(){
+            $("#img2").slideDown("<p>hello</p>");
+        })
+        $("#slideUp").click(function(){
+            $("#img2").slideUp();
+        })
+        $("#fadeIn").click(function(){
+            $("#p1").fadeIn("slow");
+        })
+        $("#fadeout").click(function(){
+            $("#p1").fadeOut("slow");
+            
+        })
+        $("#show").click(function(){
+            $("#img3").show("<p>hello</p>");
+        })
+        $("#hide").click(function(){
+            $("#img3").hide();
+          })
+        $("#befor").click(function(){
+          $( "#p2" ).before( "<b>Hello</b>" );
+          })
+        $("#affter").click(function(){
+          $( "#p2" ).after( "<b>Hello</b>" );
+          })
+          $("#html").click(function(){
+          $( "#p3" ).html( "<b>Hello</b>" );
+          })
+        $("#text").click(function(){
+          $("#p3").text( "Hello<b>Hello</b>" );
+          })
+
+          $("#atr").click(function(){
+          var y=$( "#p4" ).attr( );
+          $( "#p4" ).after( y );
+          })
+        $("#val").click(function(){
+         
+         var x=$( "#p4" ).val( );
+          $( "#p4" ).after( y );
+
+          })
+         
+      
+      
+
+       
+    });
+    </script>
+    </head>
+    <body>
+    
+    
+    <h1 style="text-align: center;">Add class</h1>
+    <button id="add"> Addclass</button>
+    <span style="text-align: center;">click the button to add clss "red" to the pargrapf</span>
+    <hr style ="height: 7px; background-color:black">
+
+    <h1 style="text-align: center;">slidetoggle</h1>
+    <img style="display:block" src="www-wordstream.png"  width="300" height="300">
+    <button id="slide"> slidetoggle</button>
+    <span >click the button slidetoggle</span>
+    <hr style ="height: 7px; background-color:black">
+
+    <h1 style="text-align: center;">Append</h1>
+    <button id="appen"> Addclass</button>
+    <span id ="hw" style="text-align: center;">click the button to add A pargrapf</span>
+    <hr style ="height: 7px; background-color:black">
+
+    
+   
+
+    <h1 style="text-align: center;">slideUp/slidedown</h1>
+    <img id ="img2" style="display:block" src="www-wordstream.png"  width="300" height="300">
+    <button id="slideDown"> slideDown</button>
+    <button id="slideUp"> slideUp</button>
+    <span id ="hw" style="text-align: center;">click the button to add A pargrapf</span>
+    <hr style ="height: 7px; background-color:black">
+
+    <h1 style="text-align: center;">fadeIn/feadout</h1>
+    <p id="p1">this is parrgraf</p>
+    <button id="fadeout"> fadeout</button>
+    <button id="fadeIn"> fadeIn</button>
+    <span id ="hw" style="text-align: center;">click the button to add A pargrapf</span>
+    <hr style ="height: 7px; background-color:black">
+
+    <h1 style="text-align: center;">show/hide</h1>
+    <img id ="img3" style="display:block" src="www-wordstream.png"  width="300" height="300">
+    <button id="show"> show</button>
+    <button id="hide"> hide</button>
+    <span id ="hw" style="text-align: center;">click the button to add A pargrapf</span>
+    <hr style ="height: 7px; background-color:black">
+
+    <h1 style="text-align: center;">befor/after</h1>
+    <p id="p2">this is parrgraf</p>
+    <button id="befor">befor</button>
+    <button id="affter"> after</button>
+    <span id ="hw" style="text-align: center;">click the button to add A pargrapf</span>
+    <hr style ="height: 7px; background-color:black">
+
+    <h1 style="text-align: center;">text/html</h1>
+    <p id="p3">this is parrgraf</p>
+    <button id="html">html</button>
+    <button id="text"> text</button>
+    <span id ="hw" style="text-align: center;">click the button to add A pargrapf</span>
+    <hr style ="height: 7px; background-color:black">
+
+    <h1 style="text-align: center;">atr/val</h1>
+    <p id="p4">this is parrgraf</p>
+    <button id="atr">atr</button>
+    <button id="val"> val</button>
+    <span id ="hw" style="text-align: center;">click the button to add A pargrapf</span>
+    <hr style ="height: 7px; background-color:black">
+    </body>
+</html>

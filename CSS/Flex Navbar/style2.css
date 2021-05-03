@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  
+}
+.nav{
+    width:atuo;
+    height: 100px;
+    background-color: skyblue;
+    display:flex;
+    align-items: center;
+    padding:10px;
+   
+
+    justify-content: space-between;
+
+
+}
+h1 {
+    color: white;
+    font-size: 20px;
+
+  }
+  img {
+      width:150px;
+align-self: center;
+
+  }
+
+  a{
+      color: white;
+    text-decoration: none;
+  }
+  ul{
+      display: flex;
+      list-style: none;
+      justify-content: space-evenly;
+      width: 60%;
+  }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .continer{
+        width: 450px;
+     height: 400px;
+      }
+      .img2{
+        
+     width: 200px;
+     height: 200px;
+     display: inline;
+
+     
+     
+
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $(".img2").hover(function(){
+        var x=$(this).attr('src');
+        $(this).attr('src',$(this).attr("data-alt-src"));
+        $(this).attr("data-alt-src",x);
+        console.log(333)
+      }),function(){ $(this).attr('src',$(this).attr("data-alt-src"));
+
+      }
+       
+      
+      
+
+       
+    });
+    </script>
+    </head>
+    <body>
+<div class="continer">
+  <img class="img2" src='img2/jsloups.png'                  data-alt-src='img2/clothes.png' />
+  <img  class="img2" src='img2/python-BSD.png'               data-alt-src='img2/clothes.png' />
+  <img  class="img2" src='img2/portfolio_assignment_(1).png' data-alt-src='img2/clothes.png' />
+  <img  class="img2" src='img2/periodic-table.bmp'           data-alt-src='img2/clothes.png' />
+
+</div>
+    
+    </body>
+</html>

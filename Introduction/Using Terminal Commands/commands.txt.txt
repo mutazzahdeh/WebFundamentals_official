@@ -1,0 +1,60 @@
+
+Motaz Zahdeh@LAPTOP-852DO7DR MINGW64 ~
+$ pwd
+/c/Users/Motaz Zahdeh
+
+Motaz Zahdeh@LAPTOP-852DO7DR MINGW64 ~
+$ cd desktop
+
+Motaz Zahdeh@LAPTOP-852DO7DR MINGW64 ~/desktop
+$ mkdir test
+
+Motaz Zahdeh@LAPTOP-852DO7DR MINGW64 ~/desktop
+$ cd test
+
+Motaz Zahdeh@LAPTOP-852DO7DR MINGW64 ~/desktop/test
+$ touch index.html
+
+Motaz Zahdeh@LAPTOP-852DO7DR MINGW64 ~/desktop/test
+$ touch style.css
+
+Motaz Zahdeh@LAPTOP-852DO7DR MINGW64 ~/desktop/test
+$ cp index.html index_2.html
+
+Motaz Zahdeh@LAPTOP-852DO7DR MINGW64 ~/desktop/test
+$ cd ..
+
+Motaz Zahdeh@LAPTOP-852DO7DR MINGW64 ~/desktop
+$ mkdir destination
+
+Motaz Zahdeh@LAPTOP-852DO7DR MINGW64 ~/desktop
+$ cd test
+
+Motaz Zahdeh@LAPTOP-852DO7DR MINGW64 ~/desktop/test
+$ mv index_2.html ~/desktop/destination/index_2.html
+
+Motaz Zahdeh@LAPTOP-852DO7DR MINGW64 ~/desktop/test
+$ rm style.css
+
+Motaz Zahdeh@LAPTOP-852DO7DR MINGW64 ~/desktop/test
+$ ls
+index.html
+
+Motaz Zahdeh@LAPTOP-852DO7DR MINGW64 ~/desktop/test
+$ cd ..
+
+Motaz Zahdeh@LAPTOP-852DO7DR MINGW64 ~/desktop
+$ cd destination
+
+Motaz Zahdeh@LAPTOP-852DO7DR MINGW64 ~/desktop/destination
+$ ls
+index_2.html
+
+Motaz Zahdeh@LAPTOP-852DO7DR MINGW64 ~/desktop/destination
+$ cd ..
+
+Motaz Zahdeh@LAPTOP-852DO7DR MINGW64 ~/desktop
+$ rm -rf destination
+
+Motaz Zahdeh@LAPTOP-852DO7DR MINGW64 ~/desktop
+$

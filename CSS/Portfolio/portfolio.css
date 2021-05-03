@@ -1,0 +1,131 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+#continer{
+    background-color:#f9f9f9;
+    Width:970px;
+  margin:auto;
+    
+}
+.heder{
+    padding:15px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center ;
+}
+#master{
+    background: linear-gradient(#1f0f13,#6f5964);
+    padding: 20px;
+    margin: auto;
+    align-items:center;
+}
+#master p {
+	margin-bottom: 15px;
+	padding-left: 10px;
+}
+#mastert a{
+	padding-left: 10px;
+}
+#phabu
+{
+  display:flex ;
+    padding:15px;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+#me-img{
+	width: 410px;
+    background:#A09FA7 ;
+    padding:5px; 
+}
+
+.about{
+    background:  linear-gradient(to bottom right, #fefefe, #dbcbda);
+    width:490px;
+    margin-left: 10px;
+}
+.about{
+    background:  linear-gradient(to bottom right, #fefefe, #dbcbda);
+    width:490px;
+  }
+  .about h2 {
+    color:white;
+    padding: 5px 10px;
+    background: linear-gradient(#bdbdbf, #888694, #bdbdbf);
+    margin-bottom: 10px;
+}
+.data{
+    display: flex;
+    justify-content: space-between; 
+}
+.data1{
+    width:295px;
+	height: auto;
+	background: linear-gradient(to bottom right, #fefefe, #dbcbda);
+    vertical-align: top;
+
+
+}
+.imgp{
+    width: 293px;
+}
+.data1 h3{
+    padding: 5px 10px;
+	color: white;
+	background: linear-gradient(#bdbdbf, #888694, #bdbdbf);
+}
+.tech{
+    display: flex;
+    justify-content: space-between;
+}
+.tech1{
+    width:295px;
+	height: auto;
+	background: linear-gradient(to bottom right, #fefefe, #dbcbda);
+    vertical-align: top;
+    padding: 0px 
+}
+.tech1 h3{
+    padding: 5px 10px;
+	color: white;
+	background: linear-gradient(#bdbdbf, #888694, #bdbdbf);
+   margin: 0px;
+
+}
+.imgt{
+    margin:1px;
+    width:45px;
+    margin: 1px;
+}
+.tech1 p{
+    background-color:green ;
+    width: 10px;
+    text-align: center;
+
+}
+.ssi{
+    background: green;
+   margin-left: 93px;
+    width: 100px;
+    padding: 1px;
+    text-align: center;
+    border-radius: 10px; 
+   
+}
+#footer{
+    text-align: center;
+    padding: 10px;
+}
+#social{
+    display: flex;
+    width: 100px;
+    padding: 10px;
+    margin: auto;
+   justify-content: center;
+}
+#footer img {
+	width: 20px;
+	margin:auto;
+}

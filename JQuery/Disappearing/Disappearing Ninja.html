@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .continet{
+        width: 1000px;
+        height: auto;
+      }
+      .img1{
+        background-color:black;
+        
+        height: 200px;
+        width:200px;
+        padding: 1px;
+      display:inline-block;
+      background-image: url('ninga.png');
+background-size: contain;
+;
+
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $('.img1').click(function(){
+                $(this).hide("1000");
+            });
+            $('button').click(function(){
+                $(".img1").show("1000");
+            });
+    })
+
+    
+     
+    </script>
+    </head>
+    <body>
+    <div class="continet">
+      <div class="img1"></div>
+      <div class="img1"></div>
+      <div class="img1"></div>
+      <div class="img1"></div>
+      <div class="img1"></div>
+      <div class="img1"></div>
+      <div class="img1"></div>
+      <div class="img1"></div>
+
+      <button id="Restore" style="background-color: green; color:white; display: block;">Restore</button>
+    </div>
+    
+    
+    </body>
+</html>
