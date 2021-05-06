@@ -1,0 +1,207 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.maincontener{
+    background:#245076 ;
+    width:970px;
+    height: auto;
+ 
+}
+.heder{
+    margin:10px 10px 0px 20px;
+    width: 970px;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.paython{
+    margin:0px;
+    padding: 0px;
+    width: 300px;
+    height: 100px;
+   
+
+}
+.saerch{
+    width: 280px;
+    height: 100px;
+    margin-right: 35px;
+    
+}
+.saerch a{
+    color:olive;
+
+}
+.saerch p{
+    color:white;
+    text-align: right;
+    margin-bottom: 5px;
+    margin-right: 15px;
+}
+.saerchbut{
+    background: #444444;
+    padding: auto;
+    width: auto;
+    border-radius: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.saerchbut input[type=text]{
+    width: 50%;
+  padding: 12px 20px;
+  border-radius: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  vertical-align: center;
+    
+}
+.saerchbut input[type=submit]{
+    width: 15%;
+  padding: 5px 10px;
+  background: #245076;
+  border-radius: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  margin-left: 5px;
+    
+}
+#ul1{
+    background:#417CAD ;
+    padding: 1px;
+    width: auto;
+    margin-left: 10px;
+    margin-right:10px ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.il1{
+    margin: 15px 40px;
+    color:white;
+    font-size:20px ;
+    
+}
+.main{
+    margin:10px 20px 10px 50px;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.data{
+    margin: 20px 10px;
+    padding: 1px;
+    width: 300;
+    height: auto;
+    
+
+}
+.ul2{
+    list-style: none;
+    
+    
+    
+    
+    
+}
+.li2{
+
+
+
+color:white;
+margin-bottom: 10px;
+text-align: center;
+text-decoration: underline;
+    
+    
+
+}
+ul.ul2 :before {
+    content: "\00BB \0020";
+    color: yellow;
+    
+     }
+
+     .data2{
+         width: 670px;
+         margin: 10px;
+         padding:10px;
+      
+     }
+     .data2 p{
+         color: white;
+         text-align: center;
+         font-size: 13px;
+         
+
+     }
+.li3{
+    color:orange;
+margin-bottom: 10px;
+font-size: 15px;
+text-align: center;
+font-style: italic;
+
+}
+.discribtion{
+    width:auto;
+    height: auto;
+    background-color: white;
+    margin:15px auto;
+    padding: 15px 15px;
+    display: flex ;
+    justify-content:center ;
+    
+}
+.getapp
+{
+    margin:15px;
+    width: auto;
+    height: auto;
+
+}
+ .hr1{
+    color:#73A7D5;
+    background-color:#73A7D5 ;
+    height:4px;
+
+}
+
+.getapp p{
+    font-size: 15px;
+    text-align: center;
+}               
+.li4{
+    color:#73A7D5;
+    font-size: 13px;
+    text-align: center;
+}
+.ul3{
+    
+    list-style:square; 
+    text-align: center;
+    
+  }
+.foter{
+    height: auto;
+    margin-top: 50px;
+    
+}
+.ul5{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+.il5{
+    color: #5E93C3;
+}
